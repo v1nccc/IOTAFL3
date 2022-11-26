@@ -134,10 +134,10 @@ class MainActivity : AppCompatActivity() {
 
                 }
                 if ((sens1 == true && sens2 == true) || (sens2 == true && sens3 == true) || (sens3 == true && sens4 == true)){
-                    binding.statuspalangtv.text ="Terbuka"
+                    binding.statuspalangtv.text ="Tertutup"
                 }
                 else   {
-                    binding.statuspalangtv.text ="Tertutup"
+                    binding.statuspalangtv.text ="Terbuka"
                 }
 
 
