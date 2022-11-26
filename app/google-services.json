@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "328752277002",
+    "firebase_url": "https://palang-kereta-iot-afl3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "palang-kereta-iot-afl3",
+    "storage_bucket": "palang-kereta-iot-afl3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328752277002:android:1dccffac8c881bc6f061f3",
+        "android_client_info": {
+          "package_name": "com.uc.keretaapiiotafl3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328752277002-1sl4ok7i0ei8vj79e5mcvsjvg6vuok5u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJthpf2YxxS6rzOBU2rvvXjmdd8WnhI2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328752277002-1sl4ok7i0ei8vj79e5mcvsjvg6vuok5u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
