@@ -12,9 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Palang"
-        android:textColor="#000000"
+        android:text="Status Palang:"
+        android:textColor="#3F51B5"
 
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/cv_sensro4"
         app:layout_constraintStart_toStartOf="@+id/cv_sensro1"
         app:layout_constraintTop_toBottomOf="@+id/cv_sensro1" />
@@ -23,8 +24,10 @@
         android:id="@+id/statuspalangtv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         android:text="Status"
         android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/textView10"
         app:layout_constraintStart_toStartOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -104,7 +107,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="Sensor 1"
+                android:text="Sensor 2"
                 android:textColor="#000000"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -131,13 +134,13 @@
         android:id="@+id/cv_sensro3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="5dp"
         android:background="#FFFFFF"
         android:elevation="10dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="10dp"
         app:cardMaxElevation="10dp"
-        app:layout_constraintEnd_toStartOf="@+id/cv_sensro4"
+        app:layout_constraintStart_toEndOf="@+id/cv_sensro2"
         app:layout_constraintTop_toTopOf="@+id/cv_sensro2">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -152,7 +155,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="Sensor 1"
+                android:text="Sensor 3"
                 android:textColor="#000000"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -179,13 +182,13 @@
         android:id="@+id/cv_sensro4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
         android:background="#FFFFFF"
         android:elevation="10dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="10dp"
         app:cardMaxElevation="10dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cv_sensro3"
         app:layout_constraintTop_toTopOf="@+id/cv_sensro3">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -200,7 +203,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginBottom="16dp"
-                android:text="Sensor 1"
+                android:text="Sensor 4"
                 android:textColor="#000000"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -222,5 +225,30 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvjudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PALANG KERETA OTOMATIS"
+        android:textColor="#2196F3"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cv_sensro3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvpembuat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="Dibuat: Dhammiko dan Vincent"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
